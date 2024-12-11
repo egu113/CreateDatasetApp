@@ -1,4 +1,2 @@
 streamlit
 matplotlib
-japanize_matplotlib
-distutils
