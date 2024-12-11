@@ -3,7 +3,6 @@ import pandas as pd
 import numpy as np
 import numpy.random as rand
 import matplotlib.pyplot as plt
-import japanize_matplotlib
 from sklearn.preprocessing import LabelEncoder
 
 #
@@ -70,7 +69,7 @@ def plotBar(data, title):
   ax = uniqueElement.plot.bar()
   ax.grid(True)
   ax.set_title("")
-  ax.set_xlabel("要素")
+  ax.set_xlabel("element")
   ax.set_ylabel(title)
   st.pyplot(fig)
 
